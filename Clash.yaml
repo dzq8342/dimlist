@@ -3,144 +3,141 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
   - {name: MPLS Gaming 1, server: hkgame1.wallthefool.org, port: 62337, type: ss, cipher: aes-256-cfb, password: cG0td6j7O4, udp: true}
   - {name: MPLS Gaming 2, server: hkgame2.wallthefool.org, port: 62337, type: ss, cipher: aes-256-cfb, password: cG0td6j7O4, udp: true}
-  - {name: 🇩🇪 DE-Detour 01 AEAD, server: de-detour-01.grabgo.pro, port: 15801, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-Detour 02 AEAD, server: de-detour-02.grabgo.pro, port: 15802, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-Detour-03 AEAD, server: de-detour-03.grabgo.pro, port: 15803, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 01 AEAD, server: hkt-detour-01.grabgo.pro, port: 15101, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 02 AEAD, server: hkt-detour-02.grabgo.pro, port: 15102, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 03 AEAD, server: hkt-detour-03.grabgo.pro, port: 15103, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 04 AEAD, server: hkt-detour-04.grabgo.pro, port: 15104, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 05 AEAD, server: hkt-detour-05.grabgo.pro, port: 15105, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 06 AEAD, server: hkt-detour-06.grabgo.pro, port: 15106, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 07 AEAD, server: hkt-detour-07.grabgo.pro, port: 15107, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 08 AEAD, server: hkt-detour-08.grabgo.pro, port: 15108, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 09 AEAD, server: hkt-detour-09.grabgo.pro, port: 15109, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 10 AEAD, server: hkt-detour-10.grabgo.pro, port: 15110, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 11 AEAD, server: hkt-detour-11.grabgo.pro, port: 15111, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 12 AEAD, server: hkt-detour-12.grabgo.pro, port: 15112, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 13 AEAD, server: hkt-detour-13.grabgo.pro, port: 15113, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 14 AEAD, server: hkt-detour-14.grabgo.pro, port: 15114, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 15 AEAD, server: hkt-detour-15.grabgo.pro, port: 15115, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 16 AEAD, server: hkt-detour-16.grabgo.pro, port: 15116, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 17 AEAD, server: hkt-detour-17.grabgo.pro, port: 15117, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 18 AEAD, server: hkt-detour-18.grabgo.pro, port: 15118, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 19 AEAD, server: hkt-detour-19.grabgo.pro, port: 15119, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 20 AEAD, server: hkt-detour-20.grabgo.pro, port: 15120, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 21 AEAD, server: hkt-detour-21.grabgo.pro, port: 15131, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 22 AEAD, server: hkt-detour-22.grabgo.pro, port: 15132, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 23 AEAD, server: hkt-detour-23.grabgo.pro, port: 15133, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HKT-Detour 24 AEAD, server: hkt-detour-24.grabgo.pro, port: 15134, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 01 AEAD, server: sz-hk-01.grabgo.pro, port: 15121, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 02 AEAD, server: sz-hk-02.grabgo.pro, port: 15122, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 03 AEAD, server: sz-hk-03.grabgo.pro, port: 15123, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 04 AEAD, server: sz-hk-04.grabgo.pro, port: 15124, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 05 AEAD, server: sz-hk-05.grabgo.pro, port: 15125, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 06 AEAD, server: sz-hk-06.grabgo.pro, port: 15126, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 07 AEAD, server: sz-hk-07.grabgo.pro, port: 15127, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 08 AEAD, server: sz-hk-08.grabgo.pro, port: 15128, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 09 AEAD, server: sz-hk-09.grabgo.pro, port: 15129, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 10 AEAD, server: sz-hk-10.grabgo.pro, port: 15130, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 11 AEAD, server: sz-hk-11.grabgo.pro, port: 15151, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IEPL SZ-HK 12 AEAD, server: sz-hk-12.grabgo.pro, port: 15152, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 IEPL SZ-JP 01 AEAD, server: sz-jp-01.grabgo.pro, port: 15611, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 IEPL SZ-JP 02 AEAD, server: sz-jp-02.grabgo.pro, port: 15612, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 IEPL SZ-JP 03 AEAD, server: sz-jp-03.grabgo.pro, port: 15613, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 IEPL SZ-JP 04 AEAD, server: sz-jp-04.grabgo.pro, port: 15614, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 01 AEAD, server: sz-sg-01.grabgo.pro, port: 15701, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 02 AEAD, server: sz-sg-02.grabgo.pro, port: 15702, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 03 AEAD, server: sz-sg-03.grabgo.pro, port: 15703, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 04 AEAD, server: sz-sg-04.grabgo.pro, port: 15704, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 05 AEAD, server: sz-sg-05.grabgo.pro, port: 15705, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 06 AEAD, server: sz-sg-06.grabgo.pro, port: 15706, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 07 AEAD, server: sz-sg-07.grabgo.pro, port: 15707, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 08 AEAD, server: sz-sg-08.grabgo.pro, port: 15708, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 09 AEAD, server: sz-sg-09.grabgo.pro, port: 15709, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 IEPL SZ-SG 10 AEAD, server: sz-sg-10.grabgo.pro, port: 15710, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 01 AEAD, server: sz-us-01.grabgo.pro, port: 15731, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 02 AEAD, server: sz-us-02.grabgo.pro, port: 15732, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 03 AEAD, server: sz-us-03.grabgo.pro, port: 15733, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 04 AEAD, server: sz-us-04.grabgo.pro, port: 15734, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 05 AEAD, server: sz-us-05.grabgo.pro, port: 15735, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 06 AEAD, server: sz-us-06.grabgo.pro, port: 15736, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 07 AEAD, server: sz-us-07.grabgo.pro, port: 15737, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 08 AEAD, server: sz-us-08.grabgo.pro, port: 15738, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 09 AEAD, server: sz-us-09.grabgo.pro, port: 15739, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 IEPL SZ-US 10 AEAD, server: sz-us-10.grabgo.pro, port: 15740, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-Detour 01 AEAD, server: jp-01.grabgo.pro, port: 15601, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-Detour 02 AEAD, server: jp-02.grabgo.pro, port: 15602, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-Detour 03 AEAD, server: jp-03.grabgo.pro, port: 15603, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-Detour 04 AEAD, server: jp-04.grabgo.pro, port: 15604, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-Detour 05 AEAD, server: jp-05.grabgo.pro, port: 15605, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-Detour 06 AEAD, server: jp-06.grabgo.pro, port: 15606, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 01 AEAD, server: la-detour-01.grabgo.pro, port: 15501, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 02 AEAD, server: la-detour-02.grabgo.pro, port: 15502, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 03 AEAD, server: la-detour-03.grabgo.pro, port: 15503, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 04 AEAD, server: la-detour-04.grabgo.pro, port: 15504, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 05 AEAD, server: la-detour-05.grabgo.pro, port: 15505, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 06 AEAD, server: la-detour-06.grabgo.pro, port: 15506, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 07 AEAD, server: la-detour-07.grabgo.pro, port: 15507, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 08 AEAD, server: la-detour-08.grabgo.pro, port: 15508, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 09 AEAD, server: la-detour-09.grabgo.pro, port: 15509, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: LA-Detour 10 AEAD, server: la-detour-10.grabgo.pro, port: 15510, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: Oz-Detour 01 AEAD, server: oz-detour-01.grabgo.pro, port: 15811, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: Oz-Detour 02 AEAD, server: oz-detour-02.grabgo.pro, port: 15812, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-Detour 01 AEAD, server: sg-detour-01.grabgo.pro, port: 15301, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-Detour 02 AEAD, server: sg-detour-02.grabgo.pro, port: 15302, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-Detour 03 AEAD, server: sg-detour-03.grabgo.pro, port: 15303, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 01 AEAD, server: tw-detour-01.grabgo.pro, port: 15201, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 02 AEAD, server: tw-detour-02.grabgo.pro, port: 15202, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 03 AEAD, server: tw-detour-03.grabgo.pro, port: 15203, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 04 AEAD, server: tw-detour-04.grabgo.pro, port: 15204, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 05 AEAD, server: tw-detour-05.grabgo.pro, port: 15205, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 06 AEAD, server: tw-detour-06.grabgo.pro, port: 15206, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 07 AEAD, server: tw-detour-07.grabgo.pro, port: 15207, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 08 AEAD, server: tw-detour-08.grabgo.pro, port: 15208, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 09 AEAD, server: tw-detour-09.grabgo.pro, port: 15209, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 10 AEAD, server: tw-detour-10.grabgo.pro, port: 15210, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 11 AEAD, server: tw-detour-11.grabgo.pro, port: 15211, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 12 AEAD, server: tw-detour-12.grabgo.pro, port: 15212, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 13 AEAD, server: tw-detour-13.grabgo.pro, port: 15213, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 14 AEAD, server: tw-detour-14.grabgo.pro, port: 15214, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 15 AEAD, server: tw-detour-15.grabgo.pro, port: 15215, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 16 AEAD, server: tw-detour-16.grabgo.pro, port: 15216, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 17 AEAD, server: tw-detour-17.grabgo.pro, port: 15217, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 18 AEAD, server: tw-detour-18.grabgo.prop, port: 15218, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 19 AEAD, server: tw-detour-19.grabgo.pro, port: 15219, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 20 AEAD, server: tw-detour-20.grabgo.pro, port: 15220, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 21 AEAD, server: tw-detour-21.grabgo.pro, port: 15221, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 22 AEAD, server: tw-detour-22.grabgo.pro, port: 15222, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 23 AEAD, server: tw-detour-23.grabgo.pro, port: 15223, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW-Detour 24 AEAD, server: tw-detour-24.grabgo.pro, port: 15224, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 UK Detour-01 AEAD, server: uk-detour-01.grabgo.pro, port: 15711, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 UK Detour-02 AEAD, server: uk-detour-02.grabgo.pro, port: 15712, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 UK Detour-03 AEAD, server: uk-detour-03.grabgo.pro, port: 15713, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 UK Detour-04 AEAD, server: uk-detour-04.grabgo.pro, port: 15714, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 UK Detour-05 AEAD, server: uk-detour-05.grabgo.pro, port: 15715, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 UK Detour-06 AEAD, server: uk-detour-06.grabgo.pro, port: 15716, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 DE-Detour 01 AEAD, server: de-detour-01.grabgo.pro, port: 15801, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 DE-Detour 02 AEAD, server: de-detour-02.grabgo.pro, port: 15802, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 DE-Detour-03 AEAD, server: de-detour-03.grabgo.pro, port: 15803, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 01 AEAD, server: hkt-detour-01.grabgo.pro, port: 15101, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 02 AEAD, server: hkt-detour-02.grabgo.pro, port: 15102, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 03 AEAD, server: hkt-detour-03.grabgo.pro, port: 15103, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 04 AEAD, server: hkt-detour-04.grabgo.pro, port: 15104, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 05 AEAD, server: hkt-detour-05.grabgo.pro, port: 15105, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 06 AEAD, server: hkt-detour-06.grabgo.pro, port: 15106, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 07 AEAD, server: hkt-detour-07.grabgo.pro, port: 15107, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 08 AEAD, server: hkt-detour-08.grabgo.pro, port: 15108, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 09 AEAD, server: hkt-detour-09.grabgo.pro, port: 15109, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 10 AEAD, server: hkt-detour-10.grabgo.pro, port: 15110, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 11 AEAD, server: hkt-detour-11.grabgo.pro, port: 15111, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 12 AEAD, server: hkt-detour-12.grabgo.pro, port: 15112, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 13 AEAD, server: hkt-detour-13.grabgo.pro, port: 15113, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 14 AEAD, server: hkt-detour-14.grabgo.pro, port: 15114, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 15 AEAD, server: hkt-detour-15.grabgo.pro, port: 15115, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 16 AEAD, server: hkt-detour-16.grabgo.pro, port: 15116, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 17 AEAD, server: hkt-detour-17.grabgo.pro, port: 15117, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 18 AEAD, server: hkt-detour-18.grabgo.pro, port: 15118, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 19 AEAD, server: hkt-detour-19.grabgo.pro, port: 15119, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 20 AEAD, server: hkt-detour-20.grabgo.pro, port: 15120, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 21 AEAD, server: hkt-detour-21.grabgo.pro, port: 15131, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 22 AEAD, server: hkt-detour-22.grabgo.pro, port: 15132, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 23 AEAD, server: hkt-detour-23.grabgo.pro, port: 15133, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HKT-Detour 24 AEAD, server: hkt-detour-24.grabgo.pro, port: 15134, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 01 AEAD, server: sz-hk-01.grabgo.pro, port: 15121, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 02 AEAD, server: sz-hk-02.grabgo.pro, port: 15122, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 03 AEAD, server: sz-hk-03.grabgo.pro, port: 15123, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 04 AEAD, server: sz-hk-04.grabgo.pro, port: 15124, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 05 AEAD, server: sz-hk-05.grabgo.pro, port: 15125, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 06 AEAD, server: sz-hk-06.grabgo.pro, port: 15126, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 07 AEAD, server: sz-hk-07.grabgo.pro, port: 15127, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 08 AEAD, server: sz-hk-08.grabgo.pro, port: 15128, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 09 AEAD, server: sz-hk-09.grabgo.pro, port: 15129, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 10 AEAD, server: sz-hk-10.grabgo.pro, port: 15130, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 11 AEAD, server: sz-hk-11.grabgo.pro, port: 15151, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IEPL SZ-HK 12 AEAD, server: sz-hk-12.grabgo.pro, port: 15152, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 IEPL SZ-JP 01 AEAD, server: sz-jp-01.grabgo.pro, port: 15611, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 IEPL SZ-JP 02 AEAD, server: sz-jp-02.grabgo.pro, port: 15612, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 IEPL SZ-JP 03 AEAD, server: sz-jp-03.grabgo.pro, port: 15613, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 IEPL SZ-JP 04 AEAD, server: sz-jp-04.grabgo.pro, port: 15614, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 01 AEAD, server: sz-sg-01.grabgo.pro, port: 15701, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 02 AEAD, server: sz-sg-02.grabgo.pro, port: 15702, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 03 AEAD, server: sz-sg-03.grabgo.pro, port: 15703, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 04 AEAD, server: sz-sg-04.grabgo.pro, port: 15704, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 05 AEAD, server: sz-sg-05.grabgo.pro, port: 15705, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 06 AEAD, server: sz-sg-06.grabgo.pro, port: 15706, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 07 AEAD, server: sz-sg-07.grabgo.pro, port: 15707, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 08 AEAD, server: sz-sg-08.grabgo.pro, port: 15708, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 09 AEAD, server: sz-sg-09.grabgo.pro, port: 15709, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 IEPL SZ-SG 10 AEAD, server: sz-sg-10.grabgo.pro, port: 15710, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 01 AEAD, server: sz-us-01.grabgo.pro, port: 15731, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 02 AEAD, server: sz-us-02.grabgo.pro, port: 15732, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 03 AEAD, server: sz-us-03.grabgo.pro, port: 15733, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 04 AEAD, server: sz-us-04.grabgo.pro, port: 15734, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 05 AEAD, server: sz-us-05.grabgo.pro, port: 15735, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 06 AEAD, server: sz-us-06.grabgo.pro, port: 15736, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 07 AEAD, server: sz-us-07.grabgo.pro, port: 15737, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 08 AEAD, server: sz-us-08.grabgo.pro, port: 15738, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 09 AEAD, server: sz-us-09.grabgo.pro, port: 15739, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 IEPL SZ-US 10 AEAD, server: sz-us-10.grabgo.pro, port: 15740, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-Detour 01 AEAD, server: jp-01.grabgo.pro, port: 15601, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-Detour 02 AEAD, server: jp-02.grabgo.pro, port: 15602, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-Detour 03 AEAD, server: jp-03.grabgo.pro, port: 15603, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-Detour 04 AEAD, server: jp-04.grabgo.pro, port: 15604, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-Detour 05 AEAD, server: jp-05.grabgo.pro, port: 15605, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-Detour 06 AEAD, server: jp-06.grabgo.pro, port: 15606, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 01 AEAD, server: la-detour-01.grabgo.pro, port: 15501, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 02 AEAD, server: la-detour-02.grabgo.pro, port: 15502, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 03 AEAD, server: la-detour-03.grabgo.pro, port: 15503, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 04 AEAD, server: la-detour-04.grabgo.pro, port: 15504, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 05 AEAD, server: la-detour-05.grabgo.pro, port: 15505, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 06 AEAD, server: la-detour-06.grabgo.pro, port: 15506, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 07 AEAD, server: la-detour-07.grabgo.pro, port: 15507, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 08 AEAD, server: la-detour-08.grabgo.pro, port: 15508, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 09 AEAD, server: la-detour-09.grabgo.pro, port: 15509, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: LA-Detour 10 AEAD, server: la-detour-10.grabgo.pro, port: 15510, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Oz-Detour 01 AEAD, server: oz-detour-01.grabgo.pro, port: 15811, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Oz-Detour 02 AEAD, server: oz-detour-02.grabgo.pro, port: 15812, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-Detour 01 AEAD, server: sg-detour-01.grabgo.pro, port: 15301, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-Detour 02 AEAD, server: sg-detour-02.grabgo.pro, port: 15302, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-Detour 03 AEAD, server: sg-detour-03.grabgo.pro, port: 15303, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 01 AEAD, server: tw-detour-01.grabgo.pro, port: 15201, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 02 AEAD, server: tw-detour-02.grabgo.pro, port: 15202, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 03 AEAD, server: tw-detour-03.grabgo.pro, port: 15203, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 04 AEAD, server: tw-detour-04.grabgo.pro, port: 15204, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 05 AEAD, server: tw-detour-05.grabgo.pro, port: 15205, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 06 AEAD, server: tw-detour-06.grabgo.pro, port: 15206, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 07 AEAD, server: tw-detour-07.grabgo.pro, port: 15207, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 08 AEAD, server: tw-detour-08.grabgo.pro, port: 15208, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 09 AEAD, server: tw-detour-09.grabgo.pro, port: 15209, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 10 AEAD, server: tw-detour-10.grabgo.pro, port: 15210, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 11 AEAD, server: tw-detour-11.grabgo.pro, port: 15211, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 12 AEAD, server: tw-detour-12.grabgo.pro, port: 15212, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 13 AEAD, server: tw-detour-13.grabgo.pro, port: 15213, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 14 AEAD, server: tw-detour-14.grabgo.pro, port: 15214, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 15 AEAD, server: tw-detour-15.grabgo.pro, port: 15215, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 16 AEAD, server: tw-detour-16.grabgo.pro, port: 15216, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 17 AEAD, server: tw-detour-17.grabgo.pro, port: 15217, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 18 AEAD, server: tw-detour-18.grabgo.prop, port: 15218, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 19 AEAD, server: tw-detour-19.grabgo.pro, port: 15219, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 20 AEAD, server: tw-detour-20.grabgo.pro, port: 15220, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 21 AEAD, server: tw-detour-21.grabgo.pro, port: 15221, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 22 AEAD, server: tw-detour-22.grabgo.pro, port: 15222, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 23 AEAD, server: tw-detour-23.grabgo.pro, port: 15223, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-Detour 24 AEAD, server: tw-detour-24.grabgo.pro, port: 15224, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 UK Detour-01 AEAD, server: uk-detour-01.grabgo.pro, port: 15711, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 UK Detour-02 AEAD, server: uk-detour-02.grabgo.pro, port: 15712, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 UK Detour-03 AEAD, server: uk-detour-03.grabgo.pro, port: 15713, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 UK Detour-04 AEAD, server: uk-detour-04.grabgo.pro, port: 15714, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 UK Detour-05 AEAD, server: uk-detour-05.grabgo.pro, port: 15715, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 UK Detour-06 AEAD, server: uk-detour-06.grabgo.pro, port: 15716, type: vmess, uuid: 4f87eba6-0de6-4006-a33a-ad2d97494beb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎮 游戏节点
-      - 🔮 负载均衡
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
-  - name: 👆🏻 手动指定
+  - name: 🚀 手动切换
     type: select
     proxies:
-      - MPLS Gaming 1
-      - MPLS Gaming 2
       - 🇩🇪 DE-Detour 01 AEAD
       - 🇩🇪 DE-Detour 02 AEAD
       - 🇩🇪 DE-Detour-03 AEAD
@@ -194,16 +191,16 @@ proxy-groups:
       - 🇸🇬 IEPL SZ-SG 08 AEAD
       - 🇸🇬 IEPL SZ-SG 09 AEAD
       - 🇸🇬 IEPL SZ-SG 10 AEAD
-      - 🇺🇸 IEPL SZ-US 01 AEAD
-      - 🇺🇸 IEPL SZ-US 02 AEAD
-      - 🇺🇸 IEPL SZ-US 03 AEAD
-      - 🇺🇸 IEPL SZ-US 04 AEAD
-      - 🇺🇸 IEPL SZ-US 05 AEAD
-      - 🇺🇸 IEPL SZ-US 06 AEAD
-      - 🇺🇸 IEPL SZ-US 07 AEAD
-      - 🇺🇸 IEPL SZ-US 08 AEAD
-      - 🇺🇸 IEPL SZ-US 09 AEAD
-      - 🇺🇸 IEPL SZ-US 10 AEAD
+      - 🇺🇲 IEPL SZ-US 01 AEAD
+      - 🇺🇲 IEPL SZ-US 02 AEAD
+      - 🇺🇲 IEPL SZ-US 03 AEAD
+      - 🇺🇲 IEPL SZ-US 04 AEAD
+      - 🇺🇲 IEPL SZ-US 05 AEAD
+      - 🇺🇲 IEPL SZ-US 06 AEAD
+      - 🇺🇲 IEPL SZ-US 07 AEAD
+      - 🇺🇲 IEPL SZ-US 08 AEAD
+      - 🇺🇲 IEPL SZ-US 09 AEAD
+      - 🇺🇲 IEPL SZ-US 10 AEAD
       - 🇯🇵 JP-Detour 01 AEAD
       - 🇯🇵 JP-Detour 02 AEAD
       - 🇯🇵 JP-Detour 03 AEAD
@@ -314,16 +311,16 @@ proxy-groups:
       - 🇸🇬 IEPL SZ-SG 08 AEAD
       - 🇸🇬 IEPL SZ-SG 09 AEAD
       - 🇸🇬 IEPL SZ-SG 10 AEAD
-      - 🇺🇸 IEPL SZ-US 01 AEAD
-      - 🇺🇸 IEPL SZ-US 02 AEAD
-      - 🇺🇸 IEPL SZ-US 03 AEAD
-      - 🇺🇸 IEPL SZ-US 04 AEAD
-      - 🇺🇸 IEPL SZ-US 05 AEAD
-      - 🇺🇸 IEPL SZ-US 06 AEAD
-      - 🇺🇸 IEPL SZ-US 07 AEAD
-      - 🇺🇸 IEPL SZ-US 08 AEAD
-      - 🇺🇸 IEPL SZ-US 09 AEAD
-      - 🇺🇸 IEPL SZ-US 10 AEAD
+      - 🇺🇲 IEPL SZ-US 01 AEAD
+      - 🇺🇲 IEPL SZ-US 02 AEAD
+      - 🇺🇲 IEPL SZ-US 03 AEAD
+      - 🇺🇲 IEPL SZ-US 04 AEAD
+      - 🇺🇲 IEPL SZ-US 05 AEAD
+      - 🇺🇲 IEPL SZ-US 06 AEAD
+      - 🇺🇲 IEPL SZ-US 07 AEAD
+      - 🇺🇲 IEPL SZ-US 08 AEAD
+      - 🇺🇲 IEPL SZ-US 09 AEAD
+      - 🇺🇲 IEPL SZ-US 10 AEAD
       - 🇯🇵 JP-Detour 01 AEAD
       - 🇯🇵 JP-Detour 02 AEAD
       - 🇯🇵 JP-Detour 03 AEAD
@@ -383,127 +380,6 @@ proxy-groups:
     proxies:
       - MPLS Gaming 1
       - MPLS Gaming 2
-  - name: 🔮 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇩🇪 DE-Detour 01 AEAD
-      - 🇩🇪 DE-Detour 02 AEAD
-      - 🇩🇪 DE-Detour-03 AEAD
-      - 🇭🇰 HKT-Detour 01 AEAD
-      - 🇭🇰 HKT-Detour 02 AEAD
-      - 🇭🇰 HKT-Detour 03 AEAD
-      - 🇭🇰 HKT-Detour 04 AEAD
-      - 🇭🇰 HKT-Detour 05 AEAD
-      - 🇭🇰 HKT-Detour 06 AEAD
-      - 🇭🇰 HKT-Detour 07 AEAD
-      - 🇭🇰 HKT-Detour 08 AEAD
-      - 🇭🇰 HKT-Detour 09 AEAD
-      - 🇭🇰 HKT-Detour 10 AEAD
-      - 🇭🇰 HKT-Detour 11 AEAD
-      - 🇭🇰 HKT-Detour 12 AEAD
-      - 🇭🇰 HKT-Detour 13 AEAD
-      - 🇭🇰 HKT-Detour 14 AEAD
-      - 🇭🇰 HKT-Detour 15 AEAD
-      - 🇭🇰 HKT-Detour 16 AEAD
-      - 🇭🇰 HKT-Detour 17 AEAD
-      - 🇭🇰 HKT-Detour 18 AEAD
-      - 🇭🇰 HKT-Detour 19 AEAD
-      - 🇭🇰 HKT-Detour 20 AEAD
-      - 🇭🇰 HKT-Detour 21 AEAD
-      - 🇭🇰 HKT-Detour 22 AEAD
-      - 🇭🇰 HKT-Detour 23 AEAD
-      - 🇭🇰 HKT-Detour 24 AEAD
-      - 🇭🇰 IEPL SZ-HK 01 AEAD
-      - 🇭🇰 IEPL SZ-HK 02 AEAD
-      - 🇭🇰 IEPL SZ-HK 03 AEAD
-      - 🇭🇰 IEPL SZ-HK 04 AEAD
-      - 🇭🇰 IEPL SZ-HK 05 AEAD
-      - 🇭🇰 IEPL SZ-HK 06 AEAD
-      - 🇭🇰 IEPL SZ-HK 07 AEAD
-      - 🇭🇰 IEPL SZ-HK 08 AEAD
-      - 🇭🇰 IEPL SZ-HK 09 AEAD
-      - 🇭🇰 IEPL SZ-HK 10 AEAD
-      - 🇭🇰 IEPL SZ-HK 11 AEAD
-      - 🇭🇰 IEPL SZ-HK 12 AEAD
-      - 🇯🇵 IEPL SZ-JP 01 AEAD
-      - 🇯🇵 IEPL SZ-JP 02 AEAD
-      - 🇯🇵 IEPL SZ-JP 03 AEAD
-      - 🇯🇵 IEPL SZ-JP 04 AEAD
-      - 🇸🇬 IEPL SZ-SG 01 AEAD
-      - 🇸🇬 IEPL SZ-SG 02 AEAD
-      - 🇸🇬 IEPL SZ-SG 03 AEAD
-      - 🇸🇬 IEPL SZ-SG 04 AEAD
-      - 🇸🇬 IEPL SZ-SG 05 AEAD
-      - 🇸🇬 IEPL SZ-SG 06 AEAD
-      - 🇸🇬 IEPL SZ-SG 07 AEAD
-      - 🇸🇬 IEPL SZ-SG 08 AEAD
-      - 🇸🇬 IEPL SZ-SG 09 AEAD
-      - 🇸🇬 IEPL SZ-SG 10 AEAD
-      - 🇺🇸 IEPL SZ-US 01 AEAD
-      - 🇺🇸 IEPL SZ-US 02 AEAD
-      - 🇺🇸 IEPL SZ-US 03 AEAD
-      - 🇺🇸 IEPL SZ-US 04 AEAD
-      - 🇺🇸 IEPL SZ-US 05 AEAD
-      - 🇺🇸 IEPL SZ-US 06 AEAD
-      - 🇺🇸 IEPL SZ-US 07 AEAD
-      - 🇺🇸 IEPL SZ-US 08 AEAD
-      - 🇺🇸 IEPL SZ-US 09 AEAD
-      - 🇺🇸 IEPL SZ-US 10 AEAD
-      - 🇯🇵 JP-Detour 01 AEAD
-      - 🇯🇵 JP-Detour 02 AEAD
-      - 🇯🇵 JP-Detour 03 AEAD
-      - 🇯🇵 JP-Detour 04 AEAD
-      - 🇯🇵 JP-Detour 05 AEAD
-      - 🇯🇵 JP-Detour 06 AEAD
-      - LA-Detour 01 AEAD
-      - LA-Detour 02 AEAD
-      - LA-Detour 03 AEAD
-      - LA-Detour 04 AEAD
-      - LA-Detour 05 AEAD
-      - LA-Detour 06 AEAD
-      - LA-Detour 07 AEAD
-      - LA-Detour 08 AEAD
-      - LA-Detour 09 AEAD
-      - LA-Detour 10 AEAD
-      - Oz-Detour 01 AEAD
-      - Oz-Detour 02 AEAD
-      - 🇸🇬 SG-Detour 01 AEAD
-      - 🇸🇬 SG-Detour 02 AEAD
-      - 🇸🇬 SG-Detour 03 AEAD
-      - 🇨🇳 TW-Detour 01 AEAD
-      - 🇨🇳 TW-Detour 02 AEAD
-      - 🇨🇳 TW-Detour 03 AEAD
-      - 🇨🇳 TW-Detour 04 AEAD
-      - 🇨🇳 TW-Detour 05 AEAD
-      - 🇨🇳 TW-Detour 06 AEAD
-      - 🇨🇳 TW-Detour 07 AEAD
-      - 🇨🇳 TW-Detour 08 AEAD
-      - 🇨🇳 TW-Detour 09 AEAD
-      - 🇨🇳 TW-Detour 10 AEAD
-      - 🇨🇳 TW-Detour 11 AEAD
-      - 🇨🇳 TW-Detour 12 AEAD
-      - 🇨🇳 TW-Detour 13 AEAD
-      - 🇨🇳 TW-Detour 14 AEAD
-      - 🇨🇳 TW-Detour 15 AEAD
-      - 🇨🇳 TW-Detour 16 AEAD
-      - 🇨🇳 TW-Detour 17 AEAD
-      - 🇨🇳 TW-Detour 18 AEAD
-      - 🇨🇳 TW-Detour 19 AEAD
-      - 🇨🇳 TW-Detour 20 AEAD
-      - 🇨🇳 TW-Detour 21 AEAD
-      - 🇨🇳 TW-Detour 22 AEAD
-      - 🇨🇳 TW-Detour 23 AEAD
-      - 🇨🇳 TW-Detour 24 AEAD
-      - 🇬🇧 UK Detour-01 AEAD
-      - 🇬🇧 UK Detour-02 AEAD
-      - 🇬🇧 UK Detour-03 AEAD
-      - 🇬🇧 UK Detour-04 AEAD
-      - 🇬🇧 UK Detour-05 AEAD
-      - 🇬🇧 UK Detour-06 AEAD
   - name: 📲 电报消息
     type: select
     proxies:
@@ -515,7 +391,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
   - name: 💬 OpenAi
     type: select
@@ -528,7 +404,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
   - name: 📹 油管视频
     type: select
@@ -541,7 +417,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -555,14 +431,14 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🇨🇳 台湾节点
       - 🚀 节点选择
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -581,7 +457,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -591,7 +467,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -603,7 +479,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: Ⓜ️ 微软Bing
     type: select
     proxies:
@@ -615,7 +491,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -627,7 +503,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -639,7 +515,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -651,7 +527,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -663,7 +539,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -698,7 +574,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 👆🏻 手动指定
+      - 🚀 手动切换
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -763,16 +639,16 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 IEPL SZ-US 01 AEAD
-      - 🇺🇸 IEPL SZ-US 02 AEAD
-      - 🇺🇸 IEPL SZ-US 03 AEAD
-      - 🇺🇸 IEPL SZ-US 04 AEAD
-      - 🇺🇸 IEPL SZ-US 05 AEAD
-      - 🇺🇸 IEPL SZ-US 06 AEAD
-      - 🇺🇸 IEPL SZ-US 07 AEAD
-      - 🇺🇸 IEPL SZ-US 08 AEAD
-      - 🇺🇸 IEPL SZ-US 09 AEAD
-      - 🇺🇸 IEPL SZ-US 10 AEAD
+      - 🇺🇲 IEPL SZ-US 01 AEAD
+      - 🇺🇲 IEPL SZ-US 02 AEAD
+      - 🇺🇲 IEPL SZ-US 03 AEAD
+      - 🇺🇲 IEPL SZ-US 04 AEAD
+      - 🇺🇲 IEPL SZ-US 05 AEAD
+      - 🇺🇲 IEPL SZ-US 06 AEAD
+      - 🇺🇲 IEPL SZ-US 07 AEAD
+      - 🇺🇲 IEPL SZ-US 08 AEAD
+      - 🇺🇲 IEPL SZ-US 09 AEAD
+      - 🇺🇲 IEPL SZ-US 10 AEAD
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -832,7 +708,7 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - DIRECT    
+      - DIRECT
       - 🇸🇬 IEPL SZ-SG 01 AEAD
       - 🇸🇬 IEPL SZ-SG 02 AEAD
       - 🇸🇬 IEPL SZ-SG 03 AEAD
@@ -2782,8 +2658,6 @@ rules:
   - IP-CIDR,223.252.199.66/31,🎶 网易音乐,no-resolve
   - IP-CIDR,223.252.199.66/32,🎶 网易音乐,no-resolve
   - IP-CIDR,223.252.199.67/32,🎶 网易音乐,no-resolve
-  - DOMAIN-SUFFIX,bungie.net,🎮 游戏平台
-  - DOMAIN-SUFFIX,destinyitemmanager.com,🎮 游戏平台
   - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
   - DOMAIN-SUFFIX,epicgames.dev,🎮 游戏平台
   - DOMAIN-SUFFIX,helpshift.com,🎮 游戏平台
