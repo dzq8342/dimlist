@@ -2695,7 +2695,7 @@ rules:
   - DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo-europe.com,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo.be,🎮 游戏平台
-  - DOMAIN-SUFFIX,nintendo.co.jp,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.jp,🇯🇵 日本节点
   - DOMAIN-SUFFIX,nintendo.co.uk,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo.com.au,🎮 游戏平台
@@ -2704,7 +2704,7 @@ rules:
   - DOMAIN-SUFFIX,nintendo.eu,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo.fr,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo.it,🎮 游戏平台
-  - DOMAIN-SUFFIX,nintendo.jp,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.jp,🇯🇵 日本节点
   - DOMAIN-SUFFIX,nintendo.net,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendo.nl,🎮 游戏平台
   - DOMAIN-SUFFIX,nintendowifi.net,🎮 游戏平台
