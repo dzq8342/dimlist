@@ -4524,11 +4524,11 @@ rules:
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
   - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
-  - DOMAIN-SUFFIX,hk,🚀 节点选择
-  - DOMAIN-SUFFIX,jp,🚀 节点选择
+  - DOMAIN-SUFFIX,hk,🇭🇰 香港节点
+  - DOMAIN-SUFFIX,jp,🇯🇵 日本节点
   - DOMAIN-SUFFIX,kr,🚀 节点选择
-  - DOMAIN-SUFFIX,sg,🚀 节点选择
-  - DOMAIN-SUFFIX,tw,🚀 节点选择
+  - DOMAIN-SUFFIX,sg,🇸🇬 狮城节点
+  - DOMAIN-SUFFIX,tw,🇨🇳 台湾节点
   - DOMAIN-SUFFIX,uk,🚀 节点选择
   - DOMAIN-SUFFIX,us,🚀 节点选择
   - DOMAIN-SUFFIX,ca,🚀 节点选择
