@@ -720,6 +720,7 @@ proxy-groups:
       - 🇸🇬 IEPL SZ-SG 09 AEAD
       - 🇸🇬 IEPL SZ-SG 10 AEAD
 rules:
+  - DOMAIN-SUFFIX,834298027.xyz,🎯 全球直连
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
