@@ -11604,7 +11604,7 @@ rules:
   - PROCESS-NAME,DownloadService.exe,🎯 全球直连
   - PROCESS-NAME,Weiyun.exe,🎯 全球直连
   - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
-  - DOMAIN-SUFFIX,jp-monster-strike.xflag.com,🎮 游戏节点
-  - DOMAIN-SUFFIX,monster-strike.com,🎮 游戏节点
+  - DOMAIN-SUFFIX,jp-monster-strike.xflag.com,🎯 全球直连
+  - DOMAIN-SUFFIX,monster-strike.com,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
