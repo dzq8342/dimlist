@@ -11606,5 +11606,7 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
   - DOMAIN-SUFFIX,jp-monster-strike.xflag.com,🎯 全球直连
   - DOMAIN-SUFFIX,monster-strike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mycloudnas.com,🎯 全球直连
+  - DOMAIN-SUFFIX,834298027.xyz,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
